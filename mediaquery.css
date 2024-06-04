@@ -1,0 +1,159 @@
+@media (max-width: 1250px) {
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+  .right-image-cont {
+    position: absolute;
+    top: -606px;
+    right: 152px;
+  }
+  .img1 {
+    position: absolute;
+    top: 118px;
+    right: -574px;
+  }
+  .left-cont {
+    width: 100%;
+  }
+
+  .features-content {
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .right-image-cont {
+    position: absolute;
+    top: -545px;
+    right: 644px;
+  }
+  .advantage-content .left-image {
+    width: 450px;
+  }
+  .advantage-content {
+    flex-direction: column;
+  }
+  .right-cont {
+    width: 100%;
+  }
+  .left-cont {
+    width: 100%;
+  }
+  .text p {
+    width: 115%;
+  }
+  .faqs-content{
+    flex-direction: column;
+  }
+  .testimonial-content{
+    flex-direction: column;
+  }
+  .testimonial-content .right-cont{
+    margin-left: 0px;
+  }
+  /* .left-content {
+    display: flex;
+    justify-content: center;
+  } */
+  .gradient5 {
+    left: 134px;
+    height: 167px;
+  }
+  .advantage-content .left-image {
+    width: 685px;
+  }
+  .features-content .left-cont {
+    width: 100%;
+  }
+  .testimonial-content .right-cont p,.customize p,.advantage-detail p,.features-detail p{
+    width: 100%;
+  }
+  .gradient3 {
+    position: absolute;
+    top: 73px;
+    z-index: -17;
+    width: 383px;
+    left: 44px;
+    height: 327px;
+  }
+  .customize-content {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width:650px) {
+    .features-content .left-image {
+        width: 512px;
+    }
+    .advantage-content .left-image {
+          width: 512px
+      }
+}
+@media (max-width: 600px) {
+    .right-image-cont {
+        position: absolute;
+        top: -522px;
+        right: 566px;
+      }
+  .right-image-cont img {
+    width: 349px;
+  }
+  .app-content,.faqs-content,.testimonial-content,.advantage-content,.features-content{
+    width: 90%;
+  }
+  .img2 {
+    position: absolute;
+    top: 138px;
+    left: 218px;
+  }
+  .img3 {
+    position: absolute;
+    top: 25px;
+    left: 101px;
+  }
+}
+@media (max-width: 500px) {
+  .intro-image img {
+    width: 352px;
+    height: 259.74px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .right-image-cont img {
+    width: 261px;
+  }
+  .img2 {
+    position: absolute;
+    top: 134px;
+    left: 304px;
+  }
+  .advantage-content .left-image {
+    width: 453px;
+  }
+  .features-content .left-image {
+    width: 453px;
+  }
+  .img3 {
+    position: absolute;
+    top: 49px;
+    left: 223px;
+  }
+  .right-image-cont {
+    right: 420px;
+  }
+  .intro-button-content {
+    flex-direction: column;
+  }
+  .heading h1 {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 350px) {
+  .intro-button-cont {
+    margin-top: 40px;
+  }
+}
