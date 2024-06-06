@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap');
+
 * {
   font-family: Clash Display;
   list-style-type: none;
@@ -11,6 +13,7 @@
   width: 80%;
   margin: auto;
   align-items: center;
+  position: relative;
 }
 header {
   margin: 20px 0px;
@@ -35,6 +38,29 @@ nav ul {
 nav ul li a {
   color: #000;
 }
+.show{
+    display: block;
+    position: absolute;
+    height: 1000px;
+    width: 80%;
+    right: -117px;
+    background: gainsboro;
+    z-index: 4;
+    padding: 29px;
+    top: -42px;
+}
+.cancel{
+    position: absolute;
+    z-index: 7;
+    top: 15px;
+    right: -47px;
+    cursor: default;
+    display: none;
+    font-size: 20px;
+}
+.none{
+    display: block;
+}
 .button-right-content button {
   padding: 25px;
   width: 155px;
@@ -43,6 +69,9 @@ nav ul li a {
   font-size: 20px;
   font-weight: 700;
   border: none;
+}
+.button-toggle-cont{
+    display: none;
 }
 .started {
   padding: 18px;
